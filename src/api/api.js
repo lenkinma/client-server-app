@@ -2,7 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
 	withCredentials: true,
-	baseURL: 'https://localhost:8080/',
+	baseURL: 'http://localhost:3001/',
 	// headers: {
 	// 	"API-KEY": "",
 	// }
@@ -10,7 +10,7 @@ const instance = axios.create({
 
 export const userAPI = {
 	async getUser(id) {
-		const response = await instance.get(`users/${id}`);
+		const response = await instance.get(`${id}`);
 		return response.data;
 	},
 }

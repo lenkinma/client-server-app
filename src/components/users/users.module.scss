@@ -1,0 +1,44 @@
+@import '../../styles/global';
+
+
+.wrapper{
+  margin: 10px;
+  padding: 10px;
+}
+
+.title{
+  text-align: center;
+}
+
+.search_by_id_block{
+  margin-top: 20px;
+}
+.search_by_id_title{
+  margin-bottom: 5px;
+}
+.search_by_id_input{
+  @extend %input_block;
+}
+.search_by_id_button{
+  @extend %button;
+  margin-left: 10px;
+}
+.all_users_button{
+  margin-top: 10px;
+  @extend %button;
+  width: 100%;
+}
+.add_user_button{
+  margin-top: 10px;
+  @extend %button;
+  width: 100%;
+}
+.users_wrapper{
+
+}
+.user_block{
+  @extend %block;
+}
+.user_span{
+  color: $primary-color-500;
+}

@@ -1,0 +1,7 @@
+@import '../../styles/global';
+
+.main_block{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  justify-items: center;
+}

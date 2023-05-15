@@ -1,0 +1,15 @@
+@import 'src/styles/global';
+
+.header_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary-color-400;
+  height: 70px;
+  box-shadow: $box-shadow-black-100;
+  //@extend %block;
+}
+.header_title{
+  font-size: 20px;
+  @extend %spring_animation;
+}
